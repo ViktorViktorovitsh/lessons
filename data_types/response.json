@@ -1,0 +1,21 @@
+{
+    "response": [{
+        "first_name": "Павел",
+        "id": 1,
+        "last_name": "Дуров",
+        "can_access_closed": true,
+        "is_closed": false,
+        "sex": 2,
+        "verified": 1,
+        "bdate": "10.10.1984",
+        "city": {
+            "id": 2,
+            "title": "Санкт-Петербург"
+        },
+        "country": {
+            "id": 1,
+            "title": "Россия"
+        },
+        "photo_id": "1_456264771"
+        }]
+    }
