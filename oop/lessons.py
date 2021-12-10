@@ -128,7 +128,93 @@ print(isinstance(ls, list))
 
 
 
+"""
+Класс Products, в котором есть атрибуты: наименование, цена, запасы на складе.
+prod_info - печатает информацию о товаре
+rub_conv - переводит цену в рубли
+"""
 
+# class Products:
+#     def __init__(self, name = 'new product', price = 0.99, in_stock = 0):        
+#         self.price = price
+#         self.name = name
+#         self.in_stock = in_stock
+#     def prod_info(self):
+#         print(self.name)
+#         print(self.price)
+#         print(self.in_stock)
+#     def rub_conv(self):
+#         print(self.price * 75, 'rub')
+# 
+# 
+# apple = Products()
+# print(apple.name)
+# apple.prod_info()
+# print()
+# 
+# orange = Products('Orange Tunis', 5.0, 1000)
+# orange.prod_info()
+# print()
+# 
+# cherry = Products()
+# cherry.name = 'cherry Egypt'
+# cherry.price = 7.5
+# cherry.in_stock = 500
+# print(cherry.name)
+# print(cherry.price)
+# print(cherry.in_stock)
+# cherry.rub_conv()
+
+
+
+
+
+
+"""
+Класс Student, в котором есть три атрибута: name, groupNumber и age.
+По умолчанию name = Ivan, age = 18, groupNumber = 10A.
+В классе реализовано пять методов:
+get_name - для получения данных об имени конкретного студента
+get_age - для получения данных о возрасте конкретного студента
+get_group - для получения данных о номере группы конкретного студента
+set_name - позволяет изменить имя студента
+set_group - позволяет изменить группу студента
+"""
+
+# class Student():
+#     def __init__(self, name = "no_name", age = 18, group = None): 
+#         self.name = name
+#         self.age = age
+#         self.group = group
+#     def get_name(self):
+#         return self.name
+#     def get_group(self):
+#         return self.group
+#     def get_age(self):
+#         return self.age    
+#     def set_name(self, name):
+#         self.name=name
+#         return self.name
+#     def set_age(self, age):
+#         self.age=age
+#         return f"возраст студента {age} лет"
+#     def set_group(self,group):
+#         self.group = group
+#         return f"группа студента {group}"
+#  
+# egor = Student("Егор Летов", 20, "Пдо-33")
+# print(egor.name, egor.age, egor.group, '\n')
+# 
+# yana = Student()
+# print(yana.name)
+# print(yana.group, '\n')
+# yana.set_name("Яна Дягилева")
+# yana.set_age(25)
+# yana.set_group('Пдо-44')
+# print(yana.name, yana.age, yana.group, '\n')
+# 
+# print(egor.get_name())
+# print(yana.get_group())
 
 
 
