@@ -1,6 +1,6 @@
 # Задачи к теме ООП
 
-[![N|Solid](https://i.ytimg.com/vi/UTLl9adr0U8/mqdefault.jpg)
+![N|Solid](https://i.ytimg.com/vi/UTLl9adr0U8/mqdefault.jpg)
 
 ## Задача № 1
 Напишите программу с классом Calc. Создайте два атрибута — a и b. Напишите методы addition — сложение, 
